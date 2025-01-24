@@ -1,0 +1,11 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: block;
+  width: 1440px;
+  background-color: none;
+  border: 2px solid black;
+}

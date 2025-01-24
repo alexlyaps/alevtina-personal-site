@@ -1,0 +1,19 @@
+
+
+.sidebar {
+position: absolute;
+width: 409px;
+height: 487px;
+left: calc(50% - 409px/2 + 446.5px);
+top: 131px;
+}
+
+LATER {
+font-family: 'Source Serif Pro';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: right;
+letter-spacing: 0.05em;
+}
