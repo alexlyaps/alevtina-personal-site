@@ -20,7 +20,11 @@ const MENU: string[] = [
     "contacts",
   ];
 
-function HamburgerButton({ onClick }) {
+interface OnClickProps {
+    onClick: () => void;
+}
+
+function HamburgerButton({ onClick }: OnClickProps) {
 
     return (
         <button className="button-hamburger" onClick={onClick} >
@@ -45,7 +49,7 @@ export default function Header() {
     return (
     <header className="header">
         <div className="header-menu">
-            <h1>alevtina lyapunova</h1>
+            <h1 className='alevtina-lyapunova'>alevtina lyapunova</h1>
             <HamburgerButton onClick={toggleMenu}/>        
         </div>
         <nav className='header-menu-list'>
