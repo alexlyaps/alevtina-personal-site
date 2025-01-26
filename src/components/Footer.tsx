@@ -1,10 +1,13 @@
+import '@components/Footer.css'
 
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="footer-link-holder">
-              <a className="footer-mail-link" href="mailto:alevtinalyapunova@gmail.com">alevtinalyapunova@gmail.com</a>
-            </div>
+            <h3 className="footer-copyrights-heading">
+                © 2025 Alevtina Lyapunova 
+            </h3>
+            <h3 className="footer-copyrights-heading">{' '}</h3>
+            <h4 className="site-by-heading">Site by Alexander Lyapunov</h4>
         </footer>
     )
 }

@@ -37,6 +37,8 @@ html {
 :root {
   --black: black;
   --grey: #3C3C3C;
+  --top-margin: 43px;
+  --side-margin: 70px;
 }
 
 #root {
@@ -48,3 +50,8 @@ body {
   display: flex;
   justify-content: center;  
 }
+
+/* a {
+  text-decoration: none;
+  color: black;
+} */

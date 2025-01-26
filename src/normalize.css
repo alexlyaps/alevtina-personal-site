@@ -207,4 +207,9 @@
      scroll-behavior: auto !important;
    }
  }
+
+ a {
+  text-decoration: unset;
+  color: unset;
+ }
  

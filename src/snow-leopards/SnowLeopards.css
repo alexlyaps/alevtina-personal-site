@@ -1,0 +1,28 @@
+.main-content {
+    margin: 0 var(--side-margin) 0 var(--side-margin);
+}
+
+.work-title {
+    margin-top: 54px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.21em;
+}
+
+.figure-annotation {
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.16em;
+    font-weight: 100;
+}
+
+.work-gallery {
+    margin-top: 12px;
+}
+
+.figure-snow-leopards {
+    margin-top: 12px;
+}
